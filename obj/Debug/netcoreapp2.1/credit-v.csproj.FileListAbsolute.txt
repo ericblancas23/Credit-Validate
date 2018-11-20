@@ -1,0 +1,11 @@
+/Users/test/Desktop/projects 2/credit-v/bin/Debug/netcoreapp2.1/credit-v.deps.json
+/Users/test/Desktop/projects 2/credit-v/bin/Debug/netcoreapp2.1/credit-v.runtimeconfig.json
+/Users/test/Desktop/projects 2/credit-v/bin/Debug/netcoreapp2.1/credit-v.runtimeconfig.dev.json
+/Users/test/Desktop/projects 2/credit-v/bin/Debug/netcoreapp2.1/credit-v.dll
+/Users/test/Desktop/projects 2/credit-v/bin/Debug/netcoreapp2.1/credit-v.pdb
+/Users/test/Desktop/projects 2/credit-v/obj/Debug/netcoreapp2.1/credit-v.csprojAssemblyReference.cache
+/Users/test/Desktop/projects 2/credit-v/obj/Debug/netcoreapp2.1/credit-v.csproj.CoreCompileInputs.cache
+/Users/test/Desktop/projects 2/credit-v/obj/Debug/netcoreapp2.1/credit-v.AssemblyInfoInputs.cache
+/Users/test/Desktop/projects 2/credit-v/obj/Debug/netcoreapp2.1/credit-v.AssemblyInfo.cs
+/Users/test/Desktop/projects 2/credit-v/obj/Debug/netcoreapp2.1/credit-v.dll
+/Users/test/Desktop/projects 2/credit-v/obj/Debug/netcoreapp2.1/credit-v.pdb
