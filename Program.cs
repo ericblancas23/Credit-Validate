@@ -48,7 +48,7 @@ namespace credit_v
 
             foreach(char digit in ccValue.Reverse()) {
                 if (digit < '0' || digit > '9') {
-                    return true;
+                    return false;
                 }
 
                 int digitValue = (digit - '0') * (evenDigit ? 2 :1);
