@@ -31,7 +31,8 @@ namespace credit_v
             Console.ReadLine();
         }
 
-        public static bool IsValid(object value) {
+        public static bool IsValid(object value) 
+        {
             if (value == null) {
                 return true;
             }
@@ -41,6 +42,18 @@ namespace credit_v
             }
             ccValue = ccValue.Replace("-", "");
             ccValue = ccValue.Replace("-", "");
+            
+            int checksum = 0;
+            bool evenDigit = false;
+
+            foreach(char digit in ccValue.Reverse()) {
+                if (digit < '0' || digit > '9') {
+                    return true;
+                }
+
+                int digitValue = (digit - '0') * (evenDigit ? 2 :1);
+                evenDigit = !evenDigit;
+            }
         }
 
     }
