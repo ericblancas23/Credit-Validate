@@ -53,7 +53,13 @@ namespace credit_v
 
                 int digitValue = (digit - '0') * (evenDigit ? 2 :1);
                 evenDigit = !evenDigit;
+
+                while (digitValue > 0) {
+                    checksum += digitValue % 10;
+                    digitValue /= 10;
+                }
             }
+            return (checksum % 10) == 0;
         }
 
     }
