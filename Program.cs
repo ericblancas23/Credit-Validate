@@ -35,6 +35,12 @@ namespace credit_v
             if (value == null) {
                 return true;
             }
+            string ccValue = value as string;
+            if (ccValue == null) {
+                return false;
+            }
+            ccValue = ccValue.Replace("-", "");
+            ccValue = ccValue.Replace("-", "");
         }
 
     }
