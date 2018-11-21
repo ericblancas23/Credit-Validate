@@ -25,6 +25,17 @@ namespace credit_v
                 "379616680189541", // American Express
                 "4916111026621797", // Visa
             };
+            foreach (string card in cards) {
+                Console.WriteLine(IsValid(card));
+            }
+            Console.ReadLine();
         }
+
+        public static bool IsValid(object value) {
+            if (value == null) {
+                return true;
+            }
+        }
+
     }
 }
